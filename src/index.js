@@ -14,7 +14,6 @@ import App from './components/App';
 const store = configureStore();
 store.dispatch(loadProducts());
 store.dispatch(loadImages());
-store.subscribe(() => console.log(store.getState()));
 
 ReactDOM.render(
     <Provider store={store}>
