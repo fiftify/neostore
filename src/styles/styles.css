@@ -1,0 +1,89 @@
+.navbar-default {
+    background-color: #fe3f3f !important;
+}
+
+.navbar-default a {
+    color: #eee !important; /*ecf0f1*/
+    text-decoration: none !important;
+}
+.navbar-default a:hover {
+    color: #ddd !important;
+    text-decoration: none !important;
+}
+
+/* Header */
+.navDropdown > a:hover{
+    color: #ddd !important;
+}
+.open ul a {
+    color: #000 !important;
+}
+.open ul a:hover {
+    color: #000 !important;
+}
+
+.about {
+    text-align: center;
+}
+
+/* carousel */
+.item img {
+  width:100% !important;
+}
+
+/* Footer styles */
+
+.footer {
+    background-color: #fe3f3f;
+    text-align: center;
+    color: white;
+}
+
+.footer-ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+.footer-ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-ul li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.copyright a{
+    color: white;
+    text-decoration: none;
+}
+.copyright a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+/* main content area */
+.main {
+    margin-bottom: 1em;
+}
+
+/* single product */
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 1em;
+}
+
+.product-card a {
+    color: #337ab7;
+    text-decoration: none;
+}
+.product-card a:hover {
+    color: #bbb;
+    text-decoration: underline;
+}
+.card-item {
+    padding: 1em;
+}
